@@ -40,6 +40,7 @@ print(f"From W2 to S3: {x23.varValue} units")
 # Total transportation cost
 print(f"Total Transportation Cost: ${pulp.value(problem.objective)}")
 
+
 # Python Code Using scipy.optimize.linprog
 from scipy.optimize import linprog
 
